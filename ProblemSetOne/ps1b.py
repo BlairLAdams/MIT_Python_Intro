@@ -17,13 +17,13 @@ current_savings = 0
 count = 0
 
 while current_savings <= portion_down_payment:    
-#    print(current_savings, "\t", count)
+#   print(current_savings, "\t", count)
     current_savings += monthly_savings 
     current_savings += current_savings * (0.04 / 12)
     count += 1
     if(count % 6 == 0):
         monthly_savings += monthly_savings * semi_annual_raise
-#        print("Raise!")
+#       print("Raise!")
 
 print("Number of Months: ", count)
 print("\033[1;31;40m>>>")
