@@ -5,7 +5,6 @@ Created on Wed Aug 22 19:55:31 2018
 @author: BlairLAdams
 """
 
-
 print("\033[1;31;40m >>>")
 annual_salary = float(input("\033[1;34;40m Enter your starting salary: "))
 portion_saved = float(input("\033[1;34;40m Enter the percent of your salary to save, as a decimal: "))
