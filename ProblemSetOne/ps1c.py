@@ -11,6 +11,7 @@ portion_saved = float(input("\033[1;34;40m Enter the percent of your salary to s
 
 months_per_year = 12
 semi_annual_count = months_per_year / 2
+savings_period = 36
 monthly_savings = (int(annual_salary) * float(portion_saved))/months_per_year
 investment_return_rate = 0.04
 total_cost = 1000000
