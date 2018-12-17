@@ -1,4 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
-    "python.condaPath": "/Users/BlairLAdams/anaconda3/pkgs/conda-4.5.11-py37_0/bin/conda"
+    "python.condaPath": "/Users/BlairLAdams/anaconda3/pkgs/conda-4.5.11-py37_0/bin/conda",
+    "python.linting.enabled": true
 }

@@ -6,8 +6,9 @@ Created on Wed Dec 16 9:09:00 2018
 @author: BlairLAdams
 """
 
-num = int(input('Please enter a number: '))
-dash, arrow = '-', '>' 
+s = input('Please enter a string: ')
 
-arrow = dash*num + arrow
-print(arrow)
+if len(s) < 6:
+    print('String too short.')
+else:
+    print(s[5]) 
