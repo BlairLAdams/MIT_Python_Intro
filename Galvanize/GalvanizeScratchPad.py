@@ -8,7 +8,5 @@ Created on Wed Dec 16 9:09:00 2018
 
 s = input('Please enter a string: ')
 
-i = 0
-for i in range(0, len(s),2):
-    print(s[i].upper())
-i += 2
+# Print out a friendly greeting in response
+print('Hello {}!'.format(s))

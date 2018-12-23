@@ -1,8 +1,7 @@
-// Turn off annoying pop-up
-"python.linting.lintOnSave": false
 
 {
     "python.linting.pylintEnabled": true,
     "python.condaPath": "/Users/BlairLAdams/anaconda3/pkgs/conda-4.5.11-py37_0/bin/conda",
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "python.linting.pylintPath": "/Users/BlairLAdams/anaconda3/bin/pylint"
 }
